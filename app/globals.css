@@ -1,0 +1,322 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-contractica), Arial, Helvetica, sans-serif;
+  font-weight: 400 !important;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ed5c3f;
+  border-radius: 6px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #d54d30;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #ed5c3f #f1f1f1;
+}
+
+/* TBC Contractica Font Classes */
+.font-contractica {
+  font-family: var(--font-contractica), Arial, Helvetica, sans-serif;
+}
+
+.font-contractica-light {
+  font-family: var(--font-contractica), Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.font-contractica-book {
+  font-family: var(--font-contractica), Arial, Helvetica, sans-serif;
+  font-weight: 350;
+}
+
+.font-contractica-regular {
+  font-family: var(--font-contractica), Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.font-contractica-medium {
+  font-family: var(--font-contractica), Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.font-contractica-bold {
+  font-family: var(--font-contractica), Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.font-contractica-black {
+  font-family: var(--font-contractica), Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+/* TBC Contractica CAPS Font Classes */
+.font-contractica-caps {
+  font-family: var(--font-contractica-caps), Arial, Helvetica, sans-serif;
+}
+
+.font-contractica-caps-light {
+  font-family: var(--font-contractica-caps), Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+
+.font-contractica-caps-book {
+  font-family: var(--font-contractica-caps), Arial, Helvetica, sans-serif;
+  font-weight: 350;
+}
+
+.font-contractica-caps-regular {
+  font-family: var(--font-contractica-caps), Arial, Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.font-contractica-caps-medium {
+  font-family: var(--font-contractica-caps), Arial, Helvetica, sans-serif;
+  font-weight: 500;
+}
+
+.font-contractica-caps-bold {
+  font-family: var(--font-contractica-caps), Arial, Helvetica, sans-serif;
+  font-weight: 700;
+}
+
+.font-contractica-caps-black {
+  font-family: var(--font-contractica-caps), Arial, Helvetica, sans-serif;
+  font-weight: 900;
+}
+
+/* თიმის სლაიდერის ანიმაციები */
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 30s linear infinite;
+}
+
+@media (max-width: 768px) {
+  .animate-scroll {
+    animation: scroll 25s linear infinite;
+  }
+}
+
+.animation-paused {
+  animation-play-state: paused;
+}
+
+/* გალერია */
+.gallery-swiper {
+  padding: 0 0 60px 0;
+  width: 100%;
+  height: 100%;
+}
+.gallery-swiper .swiper-wrapper {
+  align-items: flex-end;
+  transition-timing-function: ease;
+}
+.gallery-swiper .swiper-slide {
+  transition: all 0.5s ease;
+  opacity: 0.6;
+  filter: brightness(0.6);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.gallery-swiper .swiper-slide-active {
+  opacity: 1;
+  filter: brightness(1);
+  z-index: 3;
+}
+.gallery-swiper .swiper-slide > div {
+  transition: all 0.5s ease;
+}
+.gallery-swiper .swiper-slide-active > div {
+  height: 400px !important;
+}
+@media (min-width: 768px) {
+  .gallery-swiper .swiper-slide-active > div {
+    height: 600px !important;
+  }
+}
+.gallery-swiper .swiper-slide img {
+  transition: all 0.5s ease;
+}
+.gallery-swiper .swiper-button-next,
+.gallery-swiper .swiper-button-prev {
+  color: #1c2a56 !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  margin-top: -24px !important;
+  z-index: 999 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  position: absolute !important;
+}
+.gallery-swiper .swiper-button-next {
+  right: 10px !important;
+}
+.gallery-swiper .swiper-button-prev {
+  left: 10px !important;
+}
+.gallery-swiper .swiper-button-next:after,
+.gallery-swiper .swiper-button-prev:after {
+  font-size: 20px !important;
+}
+.gallery-swiper .swiper-button-disabled {
+  opacity: 0.5 !important;
+}
+.gallery-swiper .swiper-button-next:not(.swiper-button-disabled),
+.gallery-swiper .swiper-button-prev:not(.swiper-button-disabled) {
+  pointer-events: auto !important;
+  opacity: 1 !important;
+}
+.gallery-swiper .swiper-button-next:hover,
+.gallery-swiper .swiper-button-prev:hover {
+  opacity: 0.8 !important;
+}
+
+/* თიმის სლაიდერი */
+
+.team-swiper {
+  padding: 0 0 0 0;
+  width: 100%;
+  overflow: visible;
+}
+.team-swiper .swiper-wrapper {
+  align-items: stretch;
+}
+.team-swiper .swiper-slide {
+  height: auto;
+  width: 430px !important; /* Fixed width based on Figma */
+}
+
+@media (max-width: 768px) {
+  .team-swiper .swiper-slide {
+    width: 320px !important; /* Smaller on mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .team-swiper .swiper-slide {
+    width: 280px !important; /* Even smaller on very small screens */
+  }
+}
+
+
+/* გალერია */
+.gallery-swiper {
+  padding: 60px 0;
+  width: 100%;
+  height: 420px;
+}
+
+@media (min-width: 768px) {
+  .gallery-swiper {
+    height: 620px;
+  }
+}
+
+.gallery-swiper .swiper-wrapper {
+  align-items: center;
+  transition-timing-function: ease;
+}
+
+.gallery-swiper .swiper-slide {
+  transition: all 0.5s ease;
+  opacity: 0.6;
+  filter: brightness(0.6);
+  transform: scale(0.85);
+  display: flex;
+  justify-content: center;
+}
+
+.gallery-swiper .swiper-slide-active {
+  transform: scale(1);
+  opacity: 1;
+  filter: brightness(1);
+  z-index: 3;
+}
+
+.gallery-swiper .swiper-slide img {
+  transition: all 0.5s ease;
+}
+
+.gallery-swiper .swiper-button-next,
+.gallery-swiper .swiper-button-prev {
+  color: #312618 !important;
+  width: 44px !important;
+  height: 44px !important;
+  border-radius: 50% !important;
+  margin-top: -24px !important;
+  z-index: 999 !important;
+  pointer-events: auto !important;
+  cursor: pointer !important;
+  position: absolute !important;
+}
+
+.gallery-swiper .swiper-button-next {
+  right: 10px !important;
+}
+
+.gallery-swiper .swiper-button-prev {
+  left: 10px !important;
+}
+
+.gallery-swiper .swiper-button-next:after,
+.gallery-swiper .swiper-button-prev:after {
+  font-size: 20px !important;
+}
+
+.gallery-swiper .swiper-button-disabled {
+  opacity: 0.5 !important;
+}
+
+.gallery-swiper .swiper-button-next:not(.swiper-button-disabled),
+.gallery-swiper .swiper-button-prev:not(.swiper-button-disabled) {
+  pointer-events: auto !important;
+  opacity: 1 !important;
+}
+
+.gallery-swiper .swiper-button-next:hover,
+.gallery-swiper .swiper-button-prev:hover {
+  opacity: 0.8 !important;
+}

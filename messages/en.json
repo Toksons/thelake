@@ -1,0 +1,396 @@
+{
+  "header": {
+    "nav": {
+      "aboutUs": "About Us",
+      "gallery": "Gallery",
+      "interactiveMap": "Interactive Map",
+      "contactUs": "Contact us",
+      "findUs": "Find us",
+      "lakeLyfestyle": "THE LAKE LIFESTYLE",
+      "snohetta": "SNOHETTA",
+      "servicesForYou": "SERVICES FOR YOU",
+      "barKitchen": "BAR & KITCHEN",
+      "spaWellness": "SPA & WELLNESS",
+      "whatsOn": "WHATS ON*",
+      "lakehouse": "Lake house"
+    },
+    "dropdown": {
+      "lifeInNature": "LIFE IN NATURE",
+      "surroundings": "SURROUNDINGS",
+      "artEvents": "ART EVENTS",
+      "fishing": "FISHING",
+      "sportActivities": "SPORT ACTIVITIES",
+      "education": "EDUCATION"
+    },
+    "buttons": {
+      "ownAHouse": "OWN A HOUSE",
+      "enquire": "ENQUIRE"
+    }
+  },
+  "footer": {
+    "explore": "EXPLORE",
+    "contact": "CONTACT",
+    "address": "Lisi Lake, Tbilisi, Georgia",
+    "developedBy": "Developed by frontnback.io",
+    "nav": {
+      "aboutUs": "About us",
+      "gallery": "Gallery",
+      "interactiveMap": "Interactive map",
+      "contactUs": "Contact us",
+      "findUs": "Find us"
+    }
+  },
+  "hero": {
+    "title": "YOUR HOME <br/> OVER THE LAKE",
+    "highlightWords": ["THE LAKE"]
+  },
+  "welcome": {
+    "title": "WELCOME TO THE LAKE<br/>BY PLACEMAKERS",
+    "description": "A quiet, exclusive community with spacious villas (500–800 sq.m) and private houses (200–400 sq.m), created for people who appreciate comfort, beauty, and peace of mind.",
+    "downloadBrochure": "DOWNLOAD BROCHURE",
+    "enquire": "contact"
+  },
+  "whyOwn": {
+    "title": "Why Own at The Lake by placemakers?",
+    "subtitle": "Your home. Your sanctuary. Your playground",
+    "description": "Set on 14 hectares by Lisi Lake, this private neighbourhood features 90 villas and houses surrounded by a private park and panoramic lake views. Just 7 km from the city centre, it offers an exclusive lifestyle shaped by international architecture and nature's calm"
+  },
+  "divider": {
+    "masterplan": "masterplan"
+  },
+  "plot-types": {
+    "private-houses": "private houses",
+    "land-plots": "land plots",
+    "private-villas": "private villas"
+  },
+  "contact": {
+    "title": "STAY IN TOUCH",
+    "contactTitle": "CONTACT",
+    "namePlaceholder": "Name and Surname*",
+    "emailPlaceholder": "E-mail*",
+    "phonePlaceholder": "Phone number*",
+    "address": "15D Tuta Street. 0186\nTbilisi, Georgia",
+    "phone": "+995 511 55 33 33",
+    "email": "info@placemakers.ge",
+    "website": "www.thelake.ge"
+  },
+  "notFound": {
+    "title": "Lost in the Lake",
+    "description": "You've drifted too far from shore.<br/>Let us guide you back to calmer waters.",
+    "returnHome": "Return to Shore",
+    "exploreProperties": "Explore Properties",
+    "branding": "The Lake by Placemakers"
+  },
+  "lifestyle": {
+    "title": "LIFESTYLE",
+    "wellbeing": {
+      "title": "wellbeing at our core",
+      "description": "A quiet, exclusive community with spacious villas (500–800 sq.m) and private houses (200–400 sq.m), created for people who appreciate comfort, beauty, and peace of mind."
+    },
+    "lifeInNature": {
+      "title": "LIFE IN NATURE",
+      "description": "Located in Tbilisi's main recreation area, embraced by mountain terrain and overlooking Lisi Lake. Here, every day begins with clean air, open views, and the quiet rhythm of nature, yet the city's energy is only minutes away."
+    },
+    "surroundings": {
+      "title": "surroundings",
+      "description": "Water ponds, scenic hiking trails, and mountain bike tracks weave through the landscape. all just minutes from the nearby Hippodrome, where you can rent horses and enjoy riding."
+    },
+    "artEvents": {
+      "title": "art events",
+      "description": "A multifunctional space for contemporary art exhibitions and cultural events, hosting curated shows by leading Georgian and international artists."
+    },
+    "fishing": {
+      "title": "fishing",
+      "description": "Fishing equipment is available for residents who wish to enjoy quiet moments by the lake and discover unique local species."
+    },
+    "sportActivities": {
+      "title": "Sport activities",
+      "description": "Here, nature becomes your playground. Ride a mountain bike through the hills, explore off-road trails, play padel, or follow the velo path around the lake."
+    },
+    "education": {
+      "title": "education",
+      "description": "Highly rated private schools and kindergartens are located within minutes, offering convenience for families."
+    }
+  },
+  "snohetta": {
+    "hero": {
+      "title": "Lake House By <br/>Snohetta"
+    },
+    "lakeHouse": {
+      "title": "Lake House – The Heartbeat of The Lake",
+      "description": "The main “heartbeat” of The Lake will be Lake House – not only the center of the complex, but also a new attraction point for Tbilisi. This building occupies a special place in Placemakers’ vision: it is not infrastructure designed exclusively to serve the needs of residents. Lake House’s role is much broader – to become a space where district residents, their guests, and the rest of the city meet. At the same time, residents and club members will enjoy special offers and access to certain dedicated spaces."
+    },
+     "lakeHouse1": {
+      "title": "Lake house",
+      "description": "Lake-house, designed by Snøhetta, the renowned Norwegian architecture studio, is the heart of the lakeside community. Chic yet grounded, it blends modern design with Georgian authenticity. A place to unwind and socialize, from slow morning coffee and lakeside brunches to afternoon yoga sessions, evening cocktails, and late-night fireside gatherings. Enjoy curated cultural events, art exhibitions, and quiet corners to read, work, or simply soak in the panoramic lake views, always offering the perfect setting for every moment of your day."
+    },
+    "studio": {
+      "title": "Snøhetta",
+      "description": "Snøhetta is a world-leading architecture and design studio known for projects that blend bold creativity with a deep sensitivity to context. Their portfolio includes iconic cultural landmarks such as the Oslo Opera House, the National September 11 Memorial Pavilion in New York, and the Bibliotheca Alexandrina in Egypt, each celebrated for their innovative forms and immersive experiences. Their approach combines architecture, landscape, and interior design into cohesive environments, emphasizing human experience, sustainability, and harmony with the surroundings. Every project tells a story, creating spaces that are not only visually striking but also deeply connected to the people and culture they serve."
+    },
+     "nordicChoice": {
+      "title": "",
+      "description": "This center meets international standards not only functionally but also architecturally, Placemakers turned to world-renowned Norwegian architecture firm Snøhetta."
+    },
+    "facilities": {
+      "title": "",
+      "description": "The project includes exhibition areas, restaurants, a spa and wellness zone, a swimming pool and sports facilities, as well as a business lounge that will serve club members – spaces where life, leisure, and workday blend into one another."
+    }
+  },
+  "services": {
+    "hero": {
+      "title": "Services for you",
+      "highlight": "for you"
+    },
+    "intro": {
+      "title": "Services for you",
+      "description": "At The Lake, every detail of daily life is thoughtfully designed to give you more time and peace of mind. From grocery delivery to professional housekeeping, a dedicated business lounge to a vibrant kids zone, expert gardening to comprehensive pet care - our full suite of concierge services ensures your home and lifestyle are effortlessly maintained, so you can focus on what truly matters."
+    },
+    "delivery": {
+      "title": "delivery",
+      "description": "From groceries and essentials to fresh meals from the Clubhouse restaurant, delivery across The Lake community is seamless and fast, so you can enjoy more time doing what you love."
+    },
+    "housekeeping": {
+      "title": "housekeeping",
+      "description": "From everyday cleaning to special requests, our housekeeping team is here to make life easier. Reliable, careful, and always respectful of your privacy, so your home feels its best, every day."
+    },
+    "businessLounge": {
+      "title": "business lounge",
+      "description": "A quiet corner for focus and reflection, the Business Lounge and Library offer a calm retreat from the day's pace. Whether it's work, reading, or conversation, the space blends comfort with sophistication, lined with curated books, soft light, and views over the lake"
+    },
+    "kidsZone": {
+      "title": "Kids zone",
+      "description": "A bright, engaging space designed for play, learning, and imagination. The Kids Zone offers safe indoor and outdoor areas where children can explore freely, make friends, and grow surrounded by nature."
+    },
+    "gardening": {
+      "title": "GARDENING",
+      "description": "Professional gardening services keep every outdoor space, from private courtyards to shared gardens, beautifully maintained. Our landscape team ensures your surroundings stay lush, seasonal, and perfectly in tune with the natural setting."
+    },
+    "petService": {
+      "title": "PET SERVICE",
+      "description": "Professional pet services take care of every need, walking, grooming, and even looking after your pets while you travel. Your companions stay happy, safe, and well cared for, wherever life takes you."
+    }
+  },
+  "barKitchen": {
+    "hero": {
+      "title": "Bar & kitchen"
+    },
+    "bakery": {
+      "title": "bakery",
+      "description": "Fresh sourdough, carefully selected pastries, and small-batch wines are paired with local meats, cheeses and seasonal pantry items. A space that combines quality and comfort, part bakery, part specialty shop."
+    },
+    "bar": {
+      "title": "bar",
+      "description": "A relaxed, welcoming space where evenings come alive. More than just a place for drinks, it's where people gather and connect, smoothly flowing into the lounge and library. Enjoy signature cocktails, Georgian spirits, and warm, layered lighting that sets the mood for everything from an early aperitif to a late-night nightcap."
+    },
+    "restaurant": {
+      "title": "restaurant",
+      "description": "A farm-to-table restaurant featuring an open kitchen and seasonal local ingredients, offering a warm, stylish atmosphere connected to the rhythms of the land. The open kitchen is the heart of the space. During the day, the kitchen hosts occasional cooking classes and interactive sessions, inviting guests to experience the art of cooking."
+    }
+  },
+  "spaWellness": {
+    "hero": {
+      "title": "spa & wellness"
+    },
+    "spa": {
+      "title": "spa",
+      "description": "Designed for rest and renewal. Treatments use natural ingredients inspired by the lake and surrounding landscape, offering massages, facials, and rituals that restore balance to body and mind."
+    },
+    "pool": {
+      "title": "pool",
+      "description": "A calm, elegant pool framed by nature, perfect for early morning laps or slow swims at sunset. With comfortable loungers and lake views all around, it's a daily escape where relaxation comes naturally."
+    },
+    "gym": {
+      "title": "gym",
+      "description": "A modern fitness space equipped with the latest training technology. Large windows open to views of the lake and hills, creating an inspiring environment for both intense workouts and quiet morning stretches."
+    },
+    "yoga": {
+      "title": "yoga",
+      "description": "From sunrise stretches by the lake to evening group sessions on the deck, yoga becomes part of the daily rhythm. Surrounded by fresh air and soft light, it's where balance, focus, and calm naturally return."
+    }
+  },
+  "whatsOn": {
+    "readMore": "Read More",
+    "news": "News",
+    "backToNews": "Back to News"
+  },
+ 
+  "about": {
+    "whoAreWe": {
+      "title": "who are we",
+      "subtitle": "Placemakers motto",
+      "description": "Set on 14 hectares by Lisi Lake, this private neighbourhood features 90 villas and houses surrounded by a private park and panoramic lake views. Just 7 km from the city centre, it offers an exclusive lifestyle shaped by international architecture and nature's calm"
+    },
+    "teamTitle": "TEAM",
+    "team": [
+      {
+        "image": "/team/nodar_adeishvili.png",
+        "name": "Nodar Adeishvili",
+        "position": "CEO / Partner",
+        "description": ""
+      },
+      {
+        "image": "/team/zura_pichkhaia.png",
+        "name": "Zura Pichkhaia",
+        "position": "CFO / Partner",
+        "description": ""
+      },
+      {
+        "image": "/team/nikoloz_ugulava.png",
+        "name": "Nikoloz Ugulava",
+        "position": "Project Director",
+        "description": ""
+      },
+      {
+        "image": "/team/besik_tulahsvili.png",
+        "name": "Besik Tulashvili",
+        "position": "Head of Construction",
+        "description": ""
+      },
+      {
+        "image": "/team/zinka_borodkina.png",
+        "name": "Zinka Borodkina",
+        "position": "Head of Marketing",
+        "description": ""
+      },
+      {
+        "image": "/team/mariam_beruchashvili.png",
+        "name": "Mariam Beruchasvili",
+        "position": "Head of Sales",
+        "description": ""
+      },
+      {
+        "image": "/team/nino_mshvelidze.png",
+        "name": "Nino Mshvelidze",
+        "position": "Head of Design",
+        "description": ""
+      },
+      {
+        "image": "/team/marika_paliani.png",
+        "name": "Marika Paliani",
+        "position": "Head of Finance",
+        "description": ""
+      }
+    ],
+    "aboutProject": {
+      "title": "about the project",
+      "subtitle": "The Lake motto",
+      "description": "Set on 14 hectares by Lisi Lake, this private neighbourhood features 90 villas and houses surrounded by a private park and panoramic lake views. Just 7 km from the city centre, it offers an exclusive lifestyle shaped by international architecture and nature's calm"
+    },
+    "timelineTitle": "timeline",
+    "timeline": [
+      {
+        "year": "April 2025",
+        "title": "The Idea Was Born",
+        "description": "The vision for a new lakeside community takes shape on 14 hectares at Lisi Lake."
+      },
+      {
+        "year": "June 2026",
+        "title": "Infrastructure – Will Be Completed",
+        "description": "Completion of the first phase of core infrastructure works."
+      },
+      {
+        "year": "June 2026",
+        "title": "Lake House Construction",
+        "description": "Construction begins on the Lake House, designed by Snøhetta."
+      },
+      {
+        "year": "September 2026",
+        "title": "Infrastructure – Phase II",
+        "description": "Launch of the second phase of infrastructure development."
+      }
+    ]
+  },
+  "chooseProperty": {
+    "code": "Code",
+    "landSize": "Land size",
+    "buildingSpace": "Building Space",
+    "defaultBuildingSpace": "300 m2",
+    "no2DPlan": "No 2D Plan",
+    "visualSelection": "Visual Selection",
+    "propertyListing": "Property listing",
+    "instructionTitle": "Choose a Plot",
+    "instructionText": "Hover over the map to select your desired plot. Click on a plot to view detailed information.",
+    "filter": "FILTER",
+    "type": "Type",
+    "all": "All",
+    "m2": "m²",
+    "search": "Search",
+    "land": "Land",
+    "noProperties": "No properties found matching your criteria",
+    "status": "Status",
+    "sold": "Sold",
+    "available": "Vacant"
+  },
+  "propertyListing": {
+    "filter": "FILTER",
+    "type": "Type",
+    "landSize": "Land size",
+    "all": "All",
+    "m2": "m²",
+    "search": "Search",
+    "land": "Land",
+    "code": "Code",
+    "noProperties": "No properties found matching your criteria",
+    "typeVilla": "Private Villa",
+    "typeHouse": "Private House",
+    "typeLand": "Land Plot"
+  },
+  "propertyDetail": {
+    "view": "view",
+    "sector": "Sector",
+    "cadastralPlotNumber": "Cadastral plot number",
+    "totalLandArea": "Total land area",
+    "totalHouseArea": "Total house area",
+    "livingArea": "Living area",
+    "firstFloor": "First floor",
+    "secondFloor": "Second floor",
+    "terraceArea": "Terrace area",
+    "ceilingHeights": "Ceiling heights",
+    "entranceHall": "Entrance hall",
+    "mainAreas": "Main areas",
+    "bedrooms": "Bedrooms",
+    "reserve": "RESERVE"
+  },
+  "gallery": {
+    "title": "GALLERY",
+    "exterior": "Exterior",
+    "interior": "Interior",
+    "loading": "Loading...",
+    "noImages": "No images found",
+    "imageAlt": "Gallery image"
+  },
+  "findUs": {
+    "mapTitle": "Lisi Lake Location",
+    "distanceTitle": "DISTANCE FROM ...",
+    "distances": [
+      {
+        "time": "5 MIN BY CAR",
+        "location": "Insert Nearest Private School here"
+      },
+      {
+        "time": "5 MIN WALKING DISTANCE",
+        "location": "Lisi lake"
+      },
+      {
+        "time": "5 MIN BY CAR",
+        "location": "Nearest busy road with public transportation"
+      },
+      {
+        "time": "5 MIN BY CAR",
+        "location": "Nearest sports centre"
+      }
+    ]
+  },
+  "enquirePopup": {
+    "title": "ENQUIRE",
+    "form": {
+      "fullName": "Full Name*",
+      "email": "E-Mail*",
+      "phoneNumber": "Phone Number*",
+      "message": "Your message",
+      "preferredMethod": "Preferred communication method",
+      "submit": "SEND"
+    }
+  }
+}
